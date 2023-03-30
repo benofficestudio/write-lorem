@@ -76,7 +76,7 @@ margin: 0;
   top: 93%;
   transform: translateY(-50%);
   color: #1F1E1F;
-  background-color: #eaeaea;
+  background-color: #eeeeee;
   cursor: pointer;
   margin: 0;
 }
@@ -90,17 +90,17 @@ margin: 0;
 
 .carousel-button.next {
   left: 40px;
-  border: 2px solid #000000;
+  border: none;
   border-radius: 1000px;
-  padding-bottom: 2px;
+  padding: 10px 20px;
   opacity: 80%;
 }
 
 .carousel-button.prev:hover{
-  background-color: #d1d1d1;
+  background-color: #dadada;
 }
 .carousel-button.next:hover{
-  background-color: #d1d1d1;
+  background-color: #dadada;
 }
 /* https://www.youtube.com/watch?v=9HcxHDS2w1s&t=48s | END OF CODE */
 
