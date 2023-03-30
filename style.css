@@ -1,0 +1,221 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  
+}
+
+#first{
+  background: none;
+  color: #1F1E1F;
+  border: 0;
+  margin-top: 12%;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: relative;
+  display: center;
+  top: 25%;
+  font-size: 30px;
+  outline: none;
+  cursor: text;
+  width: 50%;
+  height: 60%;
+  resize: none;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* https://www.youtube.com/watch?v=9HcxHDS2w1s&t=48s | START OF CODE */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+}
+
+.carousel {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+/*BY DEFAULT, ALL UL HAVE MARGIN/PADDING  */
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+}
+
+.carousel-button {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  position: absolute;
+  font-size: 1.25em;
+  z-index: 2;
+/*   width: 15vw; */
+  top: 93%;
+  transform: translateY(-50%);
+  color: #1F1E1F;
+  background-color: #eaeaea;
+  cursor: pointer;
+  margin: 0;
+/*   margin-left: 20px;
+  margin-right: 20px; */
+}
+
+.carousel-button.prev {
+  left: 40px;
+/*   background-color: #eaeaea; */
+  border: 2px solid #000000;
+  border-radius: 1000px;
+  padding-bottom: 2px;
+}
+
+.carousel-button.next {
+  left: 40px;
+  border: 2px solid #000000;
+  border-radius: 1000px;
+  padding-bottom: 2px;
+  opacity: 80%;
+}
+
+.carousel-button.prev:hover{
+  background-color: #d1d1d1;
+}
+.carousel-button.next:hover{
+  background-color: #d1d1d1;
+}
+
+/* https://www.youtube.com/watch?v=9HcxHDS2w1s&t=48s | END OF CODE */
+
+#navBar{
+  background-color: none;
+  width: 100vw;
+  z-index: 1000;
+}
+
+#topnav {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 40px;
+  z-index: 1000;
+  position: fixed;
+}
+
+nav li{
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: inline;
+  z-index: 1000;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: #1F1E1F;
+  font-size: 30px;
+  z-index: 1000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0px;
+}
+
+#navP {
+  margin-right: 20px;
+  display: inline;
+}
+
+input {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  list-style-type: none;
+  z-index: 1000;
+  text-decoration: none;
+  color:#1F1E1F;
+  display: inline-block;
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+  top: 40px;
+  right: 40px;
+  position: fixed;
+}
+
+input:hover {
+  color: red;
+}
+
+#butt {
+  color: #292829;
+  cursor: pointer;
+}
+
+.buttons {
+  top: 100px;
+  left: 125px;
+  position: absolute;
+}
+
+
+#btn2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#btn2 {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: transparent;
+  border: 0;
+  font-size: 30px;
+}
+
+
+#demo{
+  color: #1F1E1F;
+  margin-bottom: 25% !important;
+  margin-left: 25%;
+  margin-right: 25%;
+  position: absolute;
+  display: center;
+  top: 25%;
+  width: 50%;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  cursor: text;
+  padding-bottom: 25%;
+}
