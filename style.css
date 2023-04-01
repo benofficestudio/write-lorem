@@ -67,41 +67,33 @@ margin: 0;
 }
 
 .carousel-button {
-  font-family: "neue-haas-grotesk-display", sans-serif;
-  font-weight: 500;
-  font-style: normal;
   position: absolute;
-  font-size: 1.25em;
   z-index: 2;
-  top: 93%;
+  background: none;
+  border: 0;
+  top: 50%;
   transform: translateY(-50%);
-  color: #1F1E1F;
-  background-color: #eeeeee;
-  cursor: pointer;
-  margin: 0;
+  outline: none;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-
-/* .carousel-button.prev {
-  left: 40px;
-  border: 2px solid #000000;
-  border-radius: 1000px;
-  padding-bottom: 2px;
-} */
 
 .carousel-button.next {
-  left: 40px;
-  border: none;
-  border-radius: 1000px;
-  padding: 10px 20px;
-  opacity: 80%;
+  right: 0;
+  height: 60vh;
+  width: 30vw;
+  opacity: 100%;
+  cursor:url('nextArrow.png'), auto;
 }
 
-.carousel-button.prev:hover{
-  background-color: #dadada;
+.carousel-button.prev {
+  left: 0;
+  height: 60vh;
+  width: 20vw;
+  opacity: 100%;
+  cursor:url('prevArrow.png'), auto;
 }
-.carousel-button.next:hover{
-  background-color: #dadada;
-}
+
 /* https://www.youtube.com/watch?v=9HcxHDS2w1s&t=48s | END OF CODE */
 
 #navBar{
