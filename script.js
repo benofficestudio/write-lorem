@@ -39,7 +39,7 @@ function checkForm() {
 }
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus<br> eu ante tortor. Fusce maximus purus nisl, at aliquet lectus placerat ultricies. Proin cursus arcu ac nulla convallis dictum. Nam et ipsum elementum, tristique tellus auctor, sodales lacus. Proin vulputate efficitur aliquet. Morbi finibus arcu consequat, congue <br> leo id, finibus enim.";
+  document.getElementById("demo").innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus<br> eu ante tortor. Fusce maximus purus nisl, at aliquet lectus placerat ultricies. Proin cursus arcu ac nulla convallis dictum. Nam et ipsum elementum, tristique tellus auctor, sodales lacus. Proin vulputate efficitur aliquet. Morbi finibus arcu consequat, congue leo id, finibus enim.";
 }
 
 function myFunctionThree() {
